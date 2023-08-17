@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/84d23cbcfa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="images/Screenshot (94).jpg"
+            class="logo"
+            alt="logo"
+            style="width: 300px"
+          />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I am <span>SaiEesha</span><br />Gurram from Guntur</h1>
+        </div>
+      </div>
+    </div>
+    <!-----------about------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/a4.jpg" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Computer Science Engineer with a foundation in math, programming
+              logic and coding. Eager to use my designing, analytical and
+              program-solving experience in my work, with a focus on
+              collaboration, communication, creativity and passion for learning
+              and growing.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web Interfaces</li>
+                <li>
+                  <span>Web development</span><br />HTML, CSS,
+                  JavaScript,PHP,MySQL
+                </li>
+                <li><span>programming languages</span><br />C,C++</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <!-- <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                                <li><span>Web development</span><br>HTML, CSS, JavaScript,PHP,MySQL</li>
+                                <li><span>programming languages</span><br>C,C++</li> -->
+              <p>FRESHER</p>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020-24</span><br />IIITDM Jabalpur</li>
+                <li><span>2018-20</span><br />Sri Chaitanya Junior College</li>
+                <li><span>2018</span><br />Dr.KKR Gowtham school</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Proficient in HTML,CSS and Javascript with a strong understanding
+              of responsive design principles to ensure optimal user experience
+              across various devices. Experienced in utilizing front-end
+              libraries and frameworks such as React to build intercative and
+              dynamic user interfaces
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Proficient in creating design solutions that prioritize user
+              needs, behaviors, and preferences, ensuring seamless and intuitive
+              user experiences.Familiar with creating and maintaining design
+              systems to establish design patterns, consistency, and efficiency
+              across multiple projects
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-sharp fa-light fa-code-compare"></i>
+            <h2>DSA</h2>
+            <p>
+              Proficient in Data Structures and Algorithms (DSA) with a strong
+              foundation in problem-solving and critical thinking. Experienced
+              in designing and implementing efficient algorithms to solve
+              complex computational problems. Skilled in utilizing various data
+              structures such as arrays, linked lists, stacks, queues, trees,
+              and graphs to optimize code performance and memory usage.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="work" />
+            <div class="layer">
+              <h3>Bus Management System</h3>
+              <p>
+                Designed and developed a fullstack application for managing data
+                and keeping track of all schedules of buses in IIIT Jabalpur.
+                Developed using HTML,CSS,JS PHP and MySQL
+              </p>
+              <a href="https://github.com/SaiEesha188/Bus-Management-System" class="fa-solid fa-arrow-up-right-from-square"></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="work" />
+            <div class="layer">
+              <h3>FLEX</h3>
+              <p>
+                Developed a dynamic sports-focused e-commerce platform utilizing
+                React, Node.js, and MongoDB. Implemented robust filtering
+                mechanisms allowing users to sort products by color, category,
+                and more. Integrated Stripe payment gateway for seamless and
+                secure online transactions.
+              </p>
+              <a href="https://github.com/SaiEesha188/FLEX" class="fa-solid fa-arrow-up-right-from-square"></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="work" />
+            <div class="layer">
+              <h3>Human Pose detection</h3>
+              <p>
+                Main goal of this project is to find the pose of a person ,
+                mostly Yoga poses using a given data which coulde be a image or
+                video or using webcam.Developed usign MediaPipe Framework.
+              </p>
+              <a href="https://github.com/SaiEesha188/Human-Pose-Detection" class="fa-solid fa-arrow-up-right-from-square"></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>gurramsaieesha@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>7396491489</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/gurram-saieesha-1ba397212/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/unof.ficial432/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+            </div>
+            <a href="images/20BEC042.GURRAM SAIEESHA RESUME.pdf" download class="btn btn2"
+              >Download RESUME</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ SaiEesha.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
